@@ -33,8 +33,8 @@ z = x_in(set) + a;
 conductance = zeros(size(x_in));
 conductance(set) = z.^3 ./ (z.^3 + z.^2 + 0.1);
 
-
-%% other things I tried:
+ 
+% other things I tried:
 %
 % % zero is the final answer for many points:
 % conductance = zeros(size(x_in));
